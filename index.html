@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>iPhone Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="top-container">
+        <div class="clock">
+          <span class="hour"></span>:<span class="minute"></span>
+        </div>
+        <div class="status">
+          <img src="images/status.png" alt="Status" />
+        </div>
+      </div>
+      <div id="display"><h1 id="input"></h1></div>
+      <div class="value button" id="clear">C</div>
+      <div class="buttons-container">
+        <div class="button-wrapper">
+          <div class="button number-7" id="button">7</div>
+          <div class="button number-8" id="button">8</div>
+          <div class="button number-9" id="button">9</div>
+          <div class="button operator division">÷</div>
+        </div>
+        <div class="button-wrapper">
+          <div class="button number-4" id="button">4</div>
+          <div class="button number-5" id="button">5</div>
+          <div class="button number-6" id="button">6</div>
+          <div class="button operator multiplication">&times;</div>
+        </div>
+        <div class="button-wrapper">
+          <div class="button number-1" id="button">1</div>
+          <div class="button number-2" id="button">2</div>
+          <div class="button number-3" id="button">3</div>
+          <div class="button operator subtraction">-</div>
+        </div class="button-wrapper">
+        <div class="button-wrapper">
+          <div class="button number-0" id="button">0</div>
+          <div class="button decimal" id="button">.</div>
+          <div class="button  equal" id="result">=</div>
+          <div class="button operator addition" id="button">+</div>
+        </div>
+      </div>
+      <div class="bottom"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
